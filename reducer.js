@@ -8,9 +8,9 @@ export const reducer = (state, action) => {
         
       case SELL:
         state.item = state.item - 1;
-        return state = state
+        return state 
   
       default:
-        return state = state
+        return state 
     }
   };
