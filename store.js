@@ -1,3 +1,3 @@
-export var state = { item: 10 };
+export var store = { item: 10, value: 100 };
 
  
