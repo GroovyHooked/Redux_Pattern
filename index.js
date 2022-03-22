@@ -1,7 +1,7 @@
 import { buyItem, sellItem } from "./action.js";
 import { BUY, SELL } from "./const.js";
 
-var store = localStorage.getItem("store") || { item: 0, value: 0 };
+export var store = localStorage.getItem("store") || { item: 0, value: 0 };
 
 export const dataDisplay1 = document.querySelector("#state-item");
 export const dataDisplay2 = document.querySelector("#state-value");

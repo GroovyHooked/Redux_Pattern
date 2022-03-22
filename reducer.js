@@ -1,8 +1,7 @@
 import { BUY, SELL } from "./const.js";
 
-var store = localStorage.getItem("store") 
 
-export const reducer = (state = store, action) => {
+export const reducer = (state , action) => {
     switch (action.type) {
       case BUY:
         state.item = state.item + 1;

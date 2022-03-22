@@ -1,8 +1,7 @@
 
 import { reducer } from "./reducer.js";
 import { dataDisplay1, dataDisplay2 } from "./index.js"
-
-var store = localStorage.getItem("store") || { item: 0, value: 0 }; 
+import { store } from './index.js'
 
 export const buyItem = (action) => {
   reducer(store, action);
