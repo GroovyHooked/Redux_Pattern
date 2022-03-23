@@ -1,7 +1,5 @@
-
 import { reducer } from "./reducer.js";
-import { dataDisplay1, dataDisplay2 } from "./index.js"
-import { store } from './index.js'
+import { dataDisplay1, dataDisplay2, store } from "./index.js";
 
 export const buyItem = (action) => {
   reducer(store, action);
